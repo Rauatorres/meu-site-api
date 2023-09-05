@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+</head>
+<body>
+    <% if(tentativaLogin == true){ %>
+        <div>
+            <span>Chave de administrador incorreta!</span>
+        </div>
+    <% } %>
+    <form action="/login" method="post">
+        <label for="adminkey">
+            <h3>Digite a chave de administrador</h3>
+            <input type="password" name="adminkey" id="adminkey" autofocus>
+        </label>
+        <input type="submit" value="acessar">
+    </form>
+</body>
+</html>
