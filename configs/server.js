@@ -20,9 +20,9 @@ app.set('views', 'src/views')
 
 consign().
     include('configs/database.js').
-    then('src/routes').
-    then('src/controllers').
-    then('src/model').
+    then('api/routes').
+    then('api/controllers').
+    then('api/model').
     into(app)
 
 module.exports = app
