@@ -1,4 +1,4 @@
-const dbconfig = require('../configs/database')
+const dbconfig = require('../../configs/database')
 
 const DAO = class DAO{
     constructor(collection){
