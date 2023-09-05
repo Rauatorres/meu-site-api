@@ -4,6 +4,7 @@
   "description": "parte do meu site que roda no servidor",
   "main": "api.js",
   "scripts": {
+    "start": "nodemon api.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "rauatorres",
