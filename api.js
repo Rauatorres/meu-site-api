@@ -1,6 +1,6 @@
 //configs do servidor
-const app = require('../src/configs/server')
-const dbconfig = require('../src/configs/database')
+const app = require('./src/configs/server')
+const dbconfig = require('./src/configs/database')
 
 var porta = process.env.PORT || 3000
 
