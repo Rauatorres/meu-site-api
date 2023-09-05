@@ -10,6 +10,16 @@
       {
         "src": "(.*)",
         "dest": "api.js"
+      },
+      {
+          "src": "src/routes",
+          "dest": "api.js",
+          "methods": ["GET", "POST"]
+      },
+      {
+          "src": "src/routes",
+          "dest": "admin.js",
+          "methods": ["GET", "POST"]
       }
     ]
   }
