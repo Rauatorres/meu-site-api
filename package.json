@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "parte do meu site que roda no servidor",
   "main": "api.js",
+  "engines": {
+    "node": "18"
+  },
   "scripts": {
     "start": "node api.js",
     "test": "echo \"Error: no test specified\" && exit 1"
