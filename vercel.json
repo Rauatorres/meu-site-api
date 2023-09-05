@@ -13,11 +13,13 @@
         },
         {
             "src": "src/routes",
-            "dest": "api.js"
+            "dest": "api.js",
+            "methods": ["GET", "POST"]
         },
         {
             "src": "src/routes",
-            "dest": "admin.js"
+            "dest": "admin.js",
+            "methods": ["GET", "POST"]
         }
     ]
 }
