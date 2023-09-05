@@ -19,7 +19,7 @@ app.set('view engine', 'ejs')
 app.set('views', 'src/views')
 
 consign().
-    include('src/configs/database.js').
+    include('./configs/database.js').
     then('src/routes').
     then('src/controllers').
     then('src/model').
