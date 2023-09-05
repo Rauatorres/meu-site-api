@@ -19,10 +19,10 @@ app.set('view engine', 'ejs')
 app.set('views', 'src/views')
 
 consign().
-    include('./configs/database.js').
-    then('./src/routes').
-    then('./src/controllers').
-    then('./src/model').
+    include('configs/database.js').
+    then('src/routes').
+    then('src/controllers').
+    then('src/model').
     into(app)
 
 module.exports = app
